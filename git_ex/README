@@ -1,21 +1,21 @@
 # Git Basics (commit, diff, branches)
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
+1. Done
+2. Red
+3. Red
+4. Green
+5. In step 2, the status was "new file: abc.txt" in red. Now it appears as "modified: abc.txt", also in red.
+6. git diff
+7. git diff
+8. If all changes have already been committed / no change has been added to index, then there will be no difference to show.
+9. Because of incorrect syntax (missing "--" and "2" isn't a file; also missing space between "stage" and "2".
+10. Done
+11. It prints nothing because there is no difference between the working tree and the index.
+12. git diff-index main
+13. Done
+14. They would not. --staged shows what has been added to index that's different from main, "main" will show everything that's different from main.
+15. Because the changes, "1" and "2", have been staged; whereas the change, "3", hasn't.
+16. Done
 
 # Resolve conflicts
 
