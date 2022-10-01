@@ -57,13 +57,13 @@ Aborting
 
 # Reset
 
-1.
+1. Done
 2.
-   1.
-   2.
-   3.
-   4.
-3.
+   1. When using git reset --soft HEAD~1 you will remove the last commit from the current branch, but the file changes will stay in your working tree. Also the changes will stay on your index, so following with a git commit will create a commit with the exact same changes as the commit you "removed" before.
+   2. When using git reset --mixed HEAD~1 you will remove the last commit from the current branch, but the file changes will stay in your working tree. Contrary to --soft, however, the changes will also be removed from the index ("unstaged").
+   3. When using git reset --hard HEAD~1 you will lose all uncommited changes and all untracked files in addition to the changes introduced in the last commit. The changes won't stay in your working tree so doing a git status command will tell you that you don't have any changes in your repository.
+   4. In order to revert the last Git commit, use the “git revert” and specify the commit to be reverted which is “HEAD” for the last commit of your history.
+3. Git HEAD~1 means the previous commit of the last commit. Contrary to using the caret, git HEAD~ or HEAD with a tilde is simpler to understand as it references the previous commit of a specific branch. Another way to think about this is to go backward in a straightline.
 
 
 # Working with GitHub
