@@ -19,17 +19,17 @@
 
 # Resolve conflicts
 
-1.
-2.
-3.
-4.
+1. git branch -a
+2. git checkout -b feature/lambda_migration
+3. git merge feature/version1
+4. Done
 5.
-   1.
-   2.
-   3.
-   4.
-   5.
-6.
+   1. Done
+   2. Done
+   3. Done
+   4. Done
+   5. Done
+6. git rev-parse --abbrev-ref HEAD (to verify that I am on the correct branch), git status: "On branch feature/lambda_migration nothing to commit, working tree clean"
 
 # Cherry picking
 
