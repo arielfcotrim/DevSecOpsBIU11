@@ -33,13 +33,13 @@
 
 # Cherry picking
 
-1.
-2.
+1. Done
+2. Done
 3.
-    1.
-    2.
-4.
-5.
+    1. Done
+    2. Done
+4. .env and config.json
+5. In general, we should always aim to maintain the logical flow of development. If we have a feature branch that is dependent on another feature branch, we should merge the dependent feature branch into the main branch first, and then merge the main branch into the feature branch. This way, we can avoid merge conflicts and keep the history of the project clean (for example).
 
 
 # Changes in working tree and switch branches
